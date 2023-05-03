@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.contenue{
+    margin: 20vh 40vw;
+    height: 40vh;
+    width: 20vw;
+    background-color: rgba(196, 196, 225, 0.751);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.start{
+    margin-top: 15vh;
+    height: 10vh;
+    width: 8vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.les_choix{
+    margin-top: 7vh;
+    display: none;
+    flex-direction: column ;
+    gap: 2vh;
+}
+.saisir{
+    display: flex;
+    justify-content: center;
+}
+.saisir p{
+    font-size: 28px;
+    font-weight: 700;
+
+}
+.button,.exit{
+      height: 5vh;
+     width: 4vw;
+     border: none;
+     background-color: rgb(255, 255, 255);
+     border-radius: 5px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.unique{
+    display: flex;
+    justify-content: center;
+}
+.choix{
+    display: flex;
+    margin-left:3.5vw;
+    margin-top: 1.5vh;
+}
